@@ -1,0 +1,81 @@
+﻿#foto {
+    width: 200px; 
+    margin: 2rem 0; 
+    border-radius: 50%
+
+}
+
+.seccion-bienvenida{
+    margin: 5rem 0 10rem 0;
+    color: white;
+}
+
+.seccion-bienvenida h1{
+    margin-bottom: 1rem;
+}
+
+.seccion-bienvenida p{
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-size: 1.25rem;
+}
+
+#imagen-dotnet{
+    width:500px;
+}
+
+.cabecera{
+    font-weight: bold;
+}
+
+.habilidades ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.habilidades i {
+    color: #512BD4;
+    font-size: 50px;
+}
+:root {
+    --bs-primary: #512BD3 !important;
+}
+
+/* Esto fuerza a que cualquier fondo primario use tu nuevo color */
+.bg-primary {
+    background-color: #512BD4 !important;
+}
+
+/* Opcional: Si el texto se vuelve difícil de leer, fuerza el blanco */
+.bg-primary h1, .bg-primary p {
+    color: white !important;
+}
+
+/* Fuerza el color morado en cualquier texto con la clase text-primary */
+.text-primary {
+    color: #512BD4 !important;
+}
+
+a.text-primary:hover,
+a.text-primary:focus {
+    color: #4022a8 !important; /* Un tono más oscuro para el efecto hover */
+}
+
+/* Color base del botón */
+.btn-primary {
+    background-color: #4022a8 !important;
+    border-color: #4022a8 !important;
+    color: #ffffff !important;
+}
+
+    /* Estado Hover (al pasar el mouse) y Active (al dar clic) */
+    .btn-primary:hover,
+    .btn-primary:focus,
+    .btn-primary:active,
+    .btn-primary:focus-visible {
+        background-color: #331b87 !important; /* Un poco más oscuro */
+        border-color: #331b87 !important;
+        color: #ffffff !important;
+        /* Esto quita el resplandor azul de enfoque y pone el tuyo */
+        box-shadow: 0 0 0 0.25rem rgba(64, 34, 168, 0.4) !important;
+    }
