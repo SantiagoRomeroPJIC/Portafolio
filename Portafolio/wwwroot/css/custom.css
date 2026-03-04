@@ -20,8 +20,16 @@
     font-size: 1.25rem;
 }
 
-#imagen-dotnet{
-    width:500px;
+.logo-dotnet {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+}
+
+@media (max-width: 576px) {
+    .logo-dotnet {
+        max-width: 250px;
+    }
 }
 
 .cabecera{
